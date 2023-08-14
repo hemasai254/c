@@ -249,90 +249,90 @@ printf("28 days");
 // printf("you got %f percentage,Fail",p);
 
 
-float a,b;
-printf("enter any floating point number:\n");
-scanf("%f",&a);
-int x,y; 
-x= (int)a;
-printf("%d\n",x%10);
+// float a,b;
+// printf("enter any floating point number:\n");
+// scanf("%f",&a);
+// int x,y; 
+// x= (int)a;
+// printf("%d\n",x%10);
 
-b= a*10;
-y= (int)b;
-printf("%d",y%10);
-
-
+// b= a*10;
+// y= (int)b;
+// printf("%d",y%10);
 
 
 
-int a=-67;
-unsigned int b=95;
-short int c;
-unsigned short int d;
-long int e;
-unsigned long int f;
-char g;
-unsigned char h;
-float i;
-double j;
-long double k;
+
+
+// int a=-67;
+// unsigned int b=95;
+// short int c;
+// unsigned short int d;
+// long int e;
+// unsigned long int f;
+// char g;
+// unsigned char h;
+// float i;
+// double j;
+// long double k;
     
 
 
    //SizeOf data type
-    printf("Size of Datatypes:\n");
-    printf("int:%lu\n",sizeof(int));
-    printf("unsigned:%lu\n",sizeof(unsigned int));
-    printf("short:%lu\n",sizeof(short int));
-    printf("unsigned short:%lu\n",sizeof(unsigned short int));
-    printf("long int:%lu\n",sizeof(long int));
-    printf("unsigned long int:%lu\n",sizeof(unsigned long int ));
-    printf("float:%lu\n",sizeof(float));
-    printf("char: %lu\n",sizeof(char));
-    printf("unsigned char: %lu\n",sizeof(unsigned char));
-    printf("double:%lu\n",sizeof(double));
-    printf("long double:%lu\n\n",sizeof(long double));
+   //  printf("Size of Datatypes:\n");
+   //  printf("int:%lu\n",sizeof(int));
+   //  printf("unsigned:%lu\n",sizeof(unsigned int));
+   //  printf("short:%lu\n",sizeof(short int));
+   //  printf("unsigned short:%lu\n",sizeof(unsigned short int));
+   //  printf("long int:%lu\n",sizeof(long int));
+   //  printf("unsigned long int:%lu\n",sizeof(unsigned long int ));
+   //  printf("float:%lu\n",sizeof(float));
+   //  printf("char: %lu\n",sizeof(char));
+   //  printf("unsigned char: %lu\n",sizeof(unsigned char));
+   //  printf("double:%lu\n",sizeof(double));
+   //  printf("long double:%lu\n\n",sizeof(long double));
 
     //SizeOf variabels;
-    printf("Size of Variables:\n");
-    printf("int:%lu\n",sizeof(a));
-    printf("unsigned:%lu\n",sizeof(b));
-    printf("short:%lu\n",sizeof(c));
-    printf("unsigned short:%lu\n",sizeof(d));
-    printf("long int:%lu\n",sizeof(e));
-    printf("unsigned long int:%lu\n",sizeof(f));
-    printf("float:%lu\n",sizeof(g));
-    printf("char: %lu\n",sizeof(h));
-    printf("unsigned char: %lu\n",sizeof(i));
-    printf("double:%lu\n",sizeof(j));
-    printf("long double:%lu\n\n",sizeof(k));
+   //  printf("Size of Variables:\n");
+   //  printf("int:%lu\n",sizeof(a));
+   //  printf("unsigned:%lu\n",sizeof(b));
+   //  printf("short:%lu\n",sizeof(c));
+   //  printf("unsigned short:%lu\n",sizeof(d));
+   //  printf("long int:%lu\n",sizeof(e));
+   //  printf("unsigned long int:%lu\n",sizeof(f));
+   //  printf("float:%lu\n",sizeof(g));
+   //  printf("char: %lu\n",sizeof(h));
+   //  printf("unsigned char: %lu\n",sizeof(i));
+   //  printf("double:%lu\n",sizeof(j));
+   //  printf("long double:%lu\n\n",sizeof(k));
 
     //SizeOf Constant;
-    printf("Size of Constants:\n");
-    printf("int:%lu\n",sizeof(-263));
-    printf("unsigned:%lu\n",sizeof(123));
-    printf("short:%lu\n",sizeof(-6321));
-    printf("unsigned short:%lu\n",sizeof(632));
-    printf("long int:%lu\n",sizeof(-41258));
-    printf("unsigned long int:%lu\n",sizeof(15987));
-    printf("float:%lu\n",sizeof(66.3214));
-    printf("char: %lu\n",sizeof(g));
-    printf("unsigned char: %lu\n",sizeof(g));
-    printf("double:%lu\n",sizeof(-542871));
-    printf("long double:%lu\n\n",sizeof(1002003));
+   //  printf("Size of Constants:\n");
+   //  printf("int:%lu\n",sizeof(-263));
+   //  printf("unsigned:%lu\n",sizeof(123));
+   //  printf("short:%lu\n",sizeof(-6321));
+   //  printf("unsigned short:%lu\n",sizeof(632));
+   //  printf("long int:%lu\n",sizeof(-41258));
+   //  printf("unsigned long int:%lu\n",sizeof(15987));
+   //  printf("float:%lu\n",sizeof(66.3214));
+   //  printf("char: %lu\n",sizeof(g));
+   //  printf("unsigned char: %lu\n",sizeof(g));
+   //  printf("double:%lu\n",sizeof(-542871));
+   //  printf("long double:%lu\n\n",sizeof(1002003));
 
     //Size of expression
-    printf("Size of Expression:\n");
-    printf("int:%lu\n",sizeof(a+b));
-    printf("unsigned:%lu\n",sizeof(a+b));
-    printf("short:%lu\n",sizeof(a+b));
-    printf("unsigned short:%lu\n",sizeof(a+b));
-    printf("long int:%lu\n",sizeof(a+b));
-    printf("unsigned long int:%lu\n",sizeof(a+b));
-    printf("float:%lu\n",sizeof(a+b));
-    printf("char: %lu\n",sizeof(a+b));
-    printf("unsigned char: %lu\n",sizeof(a+b));
-    printf("double:%lu\n",sizeof(a+b));
-    printf("long double:%lu\n",sizeof(a+b));
+   //  printf("Size of Expression:\n");
+   //  printf("int:%lu\n",sizeof(a+b));
+   //  printf("unsigned:%lu\n",sizeof(a+b));
+   //  printf("short:%lu\n",sizeof(a+b));
+   //  printf("unsigned short:%lu\n",sizeof(a+b));
+   //  printf("long int:%lu\n",sizeof(a+b));
+   //  printf("unsigned long int:%lu\n",sizeof(a+b));
+   //  printf("float:%lu\n",sizeof(a+b));
+   //  printf("char: %lu\n",sizeof(a+b));
+   //  printf("unsigned char: %lu\n",sizeof(a+b));
+   //  printf("double:%lu\n",sizeof(a+b));
+   //  printf("long double:%lu\n",sizeof(a+b));
 
    return 0;
 }
