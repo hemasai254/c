@@ -10,7 +10,7 @@ int IsValidDate(int d,int m,int y)
         if(d>31)
         return 0;
     }
-    else if(m==6||m==4||m==10||m==12)
+    else if(m==6||m==4||m==9||m==11)
     {
         if(d>30)
         return 0;
